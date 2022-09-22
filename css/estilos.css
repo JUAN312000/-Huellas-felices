@@ -1,0 +1,253 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Merriweather';
+}
+
+.contenedor{
+     padding: 60px 0;
+     width: 90%;
+     max-width: 1000px;
+     margin: auto;
+     overflow: hidden;
+}
+
+.titulo{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header{
+    width: 100%;
+    height: 150px;
+    background: #2b5876;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  
+    background: linear-gradient(to left, #4e4376, #2b5876), url(../img/vecteezy_dog-logo-illustration-vector_5484042-removebg-preview.png);
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+}
+
+nav{
+    text-align: right;
+    padding: 65px 80px ;
+}
+
+nav > a{
+color: #FBAF41;
+font-weight: 200;
+text-decoration: none;
+margin-right: 15px;    
+}
+nav > a:hover{
+    text-decoration: underline;  
+     }
+.image-header{
+    position: absolute;
+    top: 16%;
+    left: 5%;
+    width: 30%;
+    height: 30%px;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+
+}
+
+
+#textosheader .image-texto-header{
+    width: 100%;
+    height: 100%;
+}
+
+#textosheader .textos-header{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    color: #fff;
+}
+#textosheader h1{
+    font-size: 36px;
+}
+
+#textosheader button{
+    display: block;
+    width: 350px;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 20px;
+    border: 3px solid #D9D9D9;
+}
+
+
+.contenedor-nuestra-fundacion{
+    display: flex;
+    justify-content: space-evenly;
+}
+.nuestra-fundacion{
+    width: 38%;
+    height: 48%;
+}
+
+.nuestra-fundacion .contenido-textos{
+    width: 45%;
+}
+
+.nuestra-fundacion p{
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.nuestra-fundacion button{
+    display: block;
+    width: 400px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 20px;
+    border: 3px solid #FBAF41;
+    border-radius: 50px;
+    background-color: #FBAF41;
+    text-transform: uppercase;
+}
+
+
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+
+}
+
+
+#portafolio .image-portafolio{
+    width: 100%;
+    height: 100%;
+}
+
+#portafolio .contenedor-portafolio{
+    position: absolute;
+    top: 280%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+    color: #fff;
+}
+#portafolio h1{
+    font-size: 36px;
+}
+#portafolio button{
+    display: block;
+    width: 350px;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 20px;
+    border: 3px solid #D9D9D9;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+
+}
+
+#noticias .caja-noticias .noticia-uno{
+    position: relative;
+    left: 10%;
+    width: 20%;
+    height: 16%;
+}
+#noticias .caja-noticias button{
+    position: relative;
+    left: 15%;
+    display: block;
+    width: 300px;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 20px;
+    border: 3px solid #D9D9D9;
+    text-align: left;
+}
+#noticias button1{
+    display: block;
+    width: 150px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 20px;
+    border: 3px solid #FBAF41;
+    border-radius: 50px;
+    background-color: #FBAF41;
+    text-transform: uppercase;
+}
+
+
+#noticias .imagen-noticias .noticia-dos{
+    position: relative;
+    left: 70%;
+    width: 20%;
+    height: 16%;
+}
+#noticias .imagen-noticias button2{
+    position: relative;
+    left: 72%;
+    display: block;
+    width: 300px;
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 20px;
+    border: 3px solid #D9D9D9;
+    text-align: left;
+}
+#noticias button3{
+    display: block;
+    width: 150px;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin-top: 20px;
+    border: 3px solid #FBAF41;
+    border-radius: 50px;
+    background-color: #FBAF41;
+    text-transform: uppercase;
+}
+footer{
+    background:  #2b5876;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4e4376, #2b5876);  
+    background: linear-gradient(to left, #4e4376, #2b5876), url(../img/vecteezy_dog-logo-illustration-vector_5484042-removebg-preview.png);
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+}
+.footer-image{
+    position: relative;
+    left: 5%;
+    width: 60%;
+    
+}
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color:#FBAF41;
+    padding: 10px;
+    margin-top: 10px;
+}
